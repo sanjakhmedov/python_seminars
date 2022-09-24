@@ -1,5 +1,6 @@
 a = float(input('введите вещественное число: '))
-if a * 10 % 10 != 0:
-    print(round(a * 10 // 1 % 10))
+a = a * 10 % 10
+if a != 0:
+    print(int(a))
 else:
     print('no')
