@@ -30,3 +30,29 @@ print(rnd_ls)
 
 sum_result = sum_even_index(rnd_ls)
 print(sum_result)
+
+# num = int(input("Enter the number: "))
+#
+#
+# def create_list(n):
+#     ls = []
+#     for i in range(n):
+#         rnd = random.choice(range(100))
+#         ls.append(rnd)
+#     return ls
+#
+#
+# rnd_list = create_list(num)
+# print(rnd_list)
+#
+#
+# def even_ind_sum(ls, n):
+#     res = 0
+#     for i in range(n):
+#         if i % 2 == 0:
+#             res += ls[i]
+#     return res
+#
+#
+# even_ind_sum = even_ind_sum(rnd_list, num)
+# print(even_ind_sum)
