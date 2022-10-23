@@ -1,0 +1,30 @@
+equation: 5.0*x^2 + 9.0*x + 2.0 
+roots: 0, -2 
+equation: 87.0*x^2 + 2.0*x + -45.0 
+roots: 1, -1 
+equation: 2.0*x^2 + 6.0*x + -5.0 
+roots: 1, -4 
+equation: 7.0*x^2 + -9.0*x + -5.0 
+roots: 1.7, -0.42 
+equation: 9.0*x^2 + 5.0*x + -8.0 
+roots: 0.71, -1.26 
+equation: -9.0*x^2 + -569.0*x + 56.0 
+roots: -63.32, 0.1 
+equation: 0.0*x^2 + 6.0*x + 8.0 
+no roots 
+equation: 1.0*x^2 + 2.0*x + -5.0 
+roots: 1.45, -3.45 
+equation: 1.0*x^2 + 2.0*x + 4.0 
+no roots 
+equation: 2.0*x^2 + 8.0*x + -16.0 
+roots: 1.46, -5.46 
+equation: 2.0*x^2 + 4.0*x + 4.0 
+no roots 
+equation: 1.0*x^2 + 4.0*x + 16.0 
+no roots 
+equation: 2.0*x^2 + 8.0*x + 16.0 
+no roots 
+equation: 16.0*x^2 + 8.0*x + 2.0 
+no roots 
+equation: 2.0*x^2 + 16.0*x + 2.0 
+roots: -0.13, -7.87 
