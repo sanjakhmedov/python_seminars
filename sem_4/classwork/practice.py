@@ -1,8 +1,42 @@
-# D = b2 − 4ac
+from functools import reduce
+from random import *
+from string import *
+
+
+# def add_num(a, b):
+#     return a + b
 #
-# если D < 0, корней нет;
-# если D = 0, есть один корень;
-# если D > 0, есть два различных корня.
+#
+# c = [1, 2, 3, 10]
+# print(f"sum of list: {sum(c)}")
+# print(f"reduce of list: {reduce(add_num, c)}")
+
+
+# def concatenation(*params):
+#     res: str = ""
+#     for item in params:
+#         res += item
+#     return res
+#
+#
+# value = concatenation("hello", "world", "get", "ready", "for", "my", "coming", "out")
+# print(value)
+
+
+# def fib(n):
+#     if n in [1, 2]:
+#         return 1
+#     else:
+#         return fib(n - 1) + fib(n - 2)
+#
+#
+# ls = []
+# for e in range(1, 10):
+#     list.append(fib(e))
+# print(ls)
+
+
+
 
 
 # task 1
