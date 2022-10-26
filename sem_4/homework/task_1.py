@@ -9,8 +9,10 @@
 from random import *
 from decimal import *
 
-getcontext().prec = 6
-print(Decimal(1) / Decimal(7))
-Decimal('0.142857')
-getcontext().prec = 28
-print(Decimal(1) / Decimal(7))
+
+def accuracy(num, acc):
+    number = Decimal(f"{num}")
+    return number.quantize(Decimal(f"{acc}"))
+
+
+print(accuracy(float(input("Enter an actual number: ")), float(input("Enter the required accuracy 0.0001: "))))
