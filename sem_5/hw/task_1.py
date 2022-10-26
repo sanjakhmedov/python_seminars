@@ -2,6 +2,9 @@ from random import *
 
 
 def create_list(s, item1):
+    if s < 0:
+        print("Length can't be negative!!!")
+        return exit()
     ls = []
     for i in range(s):
         temp = choices(item1, k=3)
